@@ -1,0 +1,22 @@
+{
+  "name": "lihaijiang/aliyun-itxdl-oss",
+  "type": "library",
+  "description": "阿里云oss",
+  "keywords": ["AliyunOSS","itxdl", "aliyun", "OSS"],
+  "homepage": " ",
+  "license": "MIT",
+  "require": {
+    "php": ">=5.6.0"
+  },
+  "authors": [
+      {
+          "name": "Li Haijiang",
+          "email": "li_haij@163.com"
+      }
+  ],
+  "autoload": {
+    "files": [
+        "src/AliyunOSS.php"
+    ]
+  }
+}
