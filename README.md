@@ -1,9 +1,16 @@
-
 ## 安装
 
 安装有两种方式：
 
-### ① 直接编辑配置文件
+### 1. 执行命令安装
+
+运行命令：
+
+```bash
+composer require lihaijiang/aliyun-itxdl-oss
+```
+
+### 2. 直接编辑配置文件
 
 将以下内容增加到 composer.json：
 
@@ -15,19 +22,10 @@ require: {
 
 然后运行 `composer update`。
 
-### ② 执行命令安装
-
-运行命令：
-
-```bash
-composer require lihaijiang/aliyun-itxdl-oss:~2.0
-```
-
-## 使用（以 Laravel 为例）
 
 ### 构建 Service 文件
 
-新建 `app/services/OSS.php`，内容可参考：[OSS.php](aliyun-oss/src/oss/AliyunOSS.php)，然后修改配置：
+新建 `app/services/OSS.php`，内容可参考：(aliyun-oss/src/oss/AliyunOSS.php)，然后修改配置：
 
 ```php
 ... ...
